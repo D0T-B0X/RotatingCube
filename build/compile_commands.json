@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build",
+  "command": "/sbin/c++  -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build  -o CMakeFiles/coordinate_systems.dir/src/main.cpp.o -c /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/main.cpp",
+  "file": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/main.cpp",
+  "output": "CMakeFiles/coordinate_systems.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build",
+  "command": "/sbin/cc  -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build  -o CMakeFiles/coordinate_systems.dir/src/glad.c.o -c /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/glad.c",
+  "file": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/glad.c",
+  "output": "CMakeFiles/coordinate_systems.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build",
+  "command": "/sbin/c++  -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include -I/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build  -o CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o -c /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/stb_image_impl.cpp",
+  "file": "/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/stb_image_impl.cpp",
+  "output": "CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o"
+}
+]
