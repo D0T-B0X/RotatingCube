@@ -11,7 +11,7 @@
 #define SCR_WIDTH 800
 #define SCR_HEIGHT 600
 #define AVELOCITY 1.0f
-#define ROTATION_ANGLE 80.0f
+#define ROTATION_ANGLE 50.0f
 #define SCR_DISTANCE -3.0f
 #define FOV 45.0f
 
@@ -29,7 +29,7 @@ int main() {
     GLFWwindow *window = glfwCreateWindow(
         SCR_WIDTH,
         SCR_HEIGHT,
-        "Rotating Cube",
+        "Coordinate Systems",
         NULL,
         NULL
     );

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31)
-project(RotatingCube)
+project(coordinate_systems)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLFW REQUIRED glfw3)
