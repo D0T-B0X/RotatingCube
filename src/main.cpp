@@ -29,7 +29,7 @@ int main() {
     GLFWwindow *window = glfwCreateWindow(
         SCR_WIDTH,
         SCR_HEIGHT,
-        "Coordinate Systems",
+        "Rotating Cube",
         NULL,
         NULL
     );

@@ -37,7 +37,7 @@ And, Voila! You now have the Rotating Cube on your screen!
 
 ## Parameters
 
-You can tweak certain parameters in the program to change how the cube or the camera behaves:
+In `RotatingCube/src/main.cpp` you can tweak certain parameters in the program to change how the cube or the camera behaves:
 
 - SCR_WIDTH: Width of the screen
 - SCR_HEIGHT: Height of the screen
