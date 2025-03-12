@@ -6,6 +6,7 @@ A simple OpenGL program written in C++ to test out 3d rendering.
 
 - A linux system
 - Cmake ^3.31
+- GLFW
 
 ## How do I run it on my system?
 
