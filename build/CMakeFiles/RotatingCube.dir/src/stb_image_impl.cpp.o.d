@@ -1,4 +1,4 @@
-CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o: \
+CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.o: \
  /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/stb_image_impl.cpp \
  /usr/include/stdc-predef.h \
  /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/stb_image.h \

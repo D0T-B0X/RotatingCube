@@ -124,24 +124,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named coordinate_systems
+# Target rules for targets named RotatingCube
 
 # Build rule for target.
-coordinate_systems: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coordinate_systems
-.PHONY : coordinate_systems
+RotatingCube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RotatingCube
+.PHONY : RotatingCube
 
 # fast build rule for target.
-coordinate_systems/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/build
-.PHONY : coordinate_systems/fast
+RotatingCube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/build
+.PHONY : RotatingCube/fast
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -149,7 +149,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -157,7 +157,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
@@ -165,7 +165,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -173,7 +173,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -181,7 +181,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/stb_image_impl.o: src/stb_image_impl.cpp.o
@@ -189,7 +189,7 @@ src/stb_image_impl.o: src/stb_image_impl.cpp.o
 
 # target to build an object file
 src/stb_image_impl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.o
 .PHONY : src/stb_image_impl.cpp.o
 
 src/stb_image_impl.i: src/stb_image_impl.cpp.i
@@ -197,7 +197,7 @@ src/stb_image_impl.i: src/stb_image_impl.cpp.i
 
 # target to preprocess a source file
 src/stb_image_impl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.i
 .PHONY : src/stb_image_impl.cpp.i
 
 src/stb_image_impl.s: src/stb_image_impl.cpp.s
@@ -205,7 +205,7 @@ src/stb_image_impl.s: src/stb_image_impl.cpp.s
 
 # target to generate assembly for a file
 src/stb_image_impl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.s
 .PHONY : src/stb_image_impl.cpp.s
 
 # Help Target
@@ -217,7 +217,7 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... coordinate_systems"
+	@echo "... RotatingCube"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

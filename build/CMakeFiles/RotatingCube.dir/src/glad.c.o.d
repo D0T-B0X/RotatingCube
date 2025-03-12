@@ -1,4 +1,4 @@
-CMakeFiles/coordinate_systems.dir/src/glad.c.o: \
+CMakeFiles/RotatingCube.dir/src/glad.c.o: \
  /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/glad.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \

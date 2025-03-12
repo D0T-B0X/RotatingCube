@@ -1,0 +1,1 @@
+/sbin/c++ -Wl,--dependency-file=CMakeFiles/RotatingCube.dir/link.d CMakeFiles/RotatingCube.dir/src/main.cpp.o CMakeFiles/RotatingCube.dir/src/glad.c.o CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.o -o RotatingCube  -lglfw -ldl

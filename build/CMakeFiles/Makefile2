@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/DotBox/Programming/C/OpenGLExcercises/coordinate_system
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/coordinate_systems.dir/all
+all: CMakeFiles/RotatingCube.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/coordinate_systems.dir/codegen
+codegen: CMakeFiles/RotatingCube.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/coordinate_systems.dir/clean
+clean: CMakeFiles/RotatingCube.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/coordinate_systems.dir
+# Target rules for target CMakeFiles/RotatingCube.dir
 
 # All Build rule for target.
-CMakeFiles/coordinate_systems.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles --progress-num=1,2,3,4 "Built target coordinate_systems"
-.PHONY : CMakeFiles/coordinate_systems.dir/all
+CMakeFiles/RotatingCube.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles --progress-num=1,2,3,4 "Built target RotatingCube"
+.PHONY : CMakeFiles/RotatingCube.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/coordinate_systems.dir/rule: cmake_check_build_system
+CMakeFiles/RotatingCube.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/coordinate_systems.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RotatingCube.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles 0
-.PHONY : CMakeFiles/coordinate_systems.dir/rule
+.PHONY : CMakeFiles/RotatingCube.dir/rule
 
 # Convenience name for target.
-coordinate_systems: CMakeFiles/coordinate_systems.dir/rule
-.PHONY : coordinate_systems
+RotatingCube: CMakeFiles/RotatingCube.dir/rule
+.PHONY : RotatingCube
 
 # codegen rule for target.
-CMakeFiles/coordinate_systems.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target coordinate_systems"
-.PHONY : CMakeFiles/coordinate_systems.dir/codegen
+CMakeFiles/RotatingCube.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target RotatingCube"
+.PHONY : CMakeFiles/RotatingCube.dir/codegen
 
 # clean rule for target.
-CMakeFiles/coordinate_systems.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_systems.dir/build.make CMakeFiles/coordinate_systems.dir/clean
-.PHONY : CMakeFiles/coordinate_systems.dir/clean
+CMakeFiles/RotatingCube.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RotatingCube.dir/build.make CMakeFiles/RotatingCube.dir/clean
+.PHONY : CMakeFiles/RotatingCube.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

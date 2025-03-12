@@ -1,10 +1,10 @@
-coordinate_systems: \
+RotatingCube: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
-  CMakeFiles/coordinate_systems.dir/src/main.cpp.o \
-  CMakeFiles/coordinate_systems.dir/src/glad.c.o \
-  CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o \
+  CMakeFiles/RotatingCube.dir/src/main.cpp.o \
+  CMakeFiles/RotatingCube.dir/src/glad.c.o \
+  CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libglfw.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libdl.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so \
@@ -41,11 +41,11 @@ coordinate_systems: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
-CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
+CMakeFiles/RotatingCube.dir/src/main.cpp.o:
 
-CMakeFiles/coordinate_systems.dir/src/glad.c.o:
+CMakeFiles/RotatingCube.dir/src/glad.c.o:
 
-CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o:
+CMakeFiles/RotatingCube.dir/src/stb_image_impl.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libglfw.so:
 

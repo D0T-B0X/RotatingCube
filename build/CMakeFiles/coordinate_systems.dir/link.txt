@@ -1,1 +1,0 @@
-/sbin/c++ -Wl,--dependency-file=CMakeFiles/coordinate_systems.dir/link.d CMakeFiles/coordinate_systems.dir/src/main.cpp.o CMakeFiles/coordinate_systems.dir/src/glad.c.o CMakeFiles/coordinate_systems.dir/src/stb_image_impl.cpp.o -o coordinate_systems  -lglfw -ldl
