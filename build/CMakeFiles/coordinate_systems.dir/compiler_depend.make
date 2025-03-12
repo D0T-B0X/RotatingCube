@@ -71,6 +71,7 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o: /home/DotBox/Programming/C/OpenG
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
 CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/src/main.cpp \
+  config.h \
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/KHR/khrplatform.h \
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glad/glad.h \
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_mat2x3.hpp \
@@ -264,6 +265,8 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/vec2.hpp \
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/vec3.hpp \
   /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/vec4.hpp \
+  /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/shader.h \
+  /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/stb_image.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -364,6 +367,7 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/bits/basic_string.tcc \
   /usr/include/c++/14.2.1/bits/char_traits.h \
   /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
   /usr/include/c++/14.2.1/bits/concept_check.h \
   /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
@@ -371,6 +375,7 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/bits/exception.h \
   /usr/include/c++/14.2.1/bits/exception_defines.h \
   /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/fstream.tcc \
   /usr/include/c++/14.2.1/bits/functexcept.h \
   /usr/include/c++/14.2.1/bits/functional_hash.h \
   /usr/include/c++/14.2.1/bits/hash_bytes.h \
@@ -396,6 +401,7 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/bits/refwrap.h \
   /usr/include/c++/14.2.1/bits/requires_hosted.h \
   /usr/include/c++/14.2.1/bits/specfun.h \
+  /usr/include/c++/14.2.1/bits/sstream.tcc \
   /usr/include/c++/14.2.1/bits/std_abs.h \
   /usr/include/c++/14.2.1/bits/stl_algobase.h \
   /usr/include/c++/14.2.1/bits/stl_construct.h \
@@ -435,6 +441,7 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/ext/numeric_traits.h \
   /usr/include/c++/14.2.1/ext/string_conversions.h \
   /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/fstream \
   /usr/include/c++/14.2.1/initializer_list \
   /usr/include/c++/14.2.1/ios \
   /usr/include/c++/14.2.1/iosfwd \
@@ -444,7 +451,9 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/new \
   /usr/include/c++/14.2.1/ostream \
   /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/sstream \
   /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/stdlib.h \
   /usr/include/c++/14.2.1/streambuf \
   /usr/include/c++/14.2.1/string \
   /usr/include/c++/14.2.1/string_view \
@@ -465,8 +474,10 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o: /home/DotBox/Programming/C/Ope
   /usr/include/c++/14.2.1/type_traits \
   /usr/include/c++/14.2.1/typeinfo \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
@@ -743,8 +754,6 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/c++/14.2.1/tr1/legendre_function.tcc:
 
-/usr/include/c++/14.2.1/tr1/hypergeometric.tcc:
-
 /usr/include/c++/14.2.1/tr1/exp_integral.tcc:
 
 /usr/include/c++/14.2.1/tr1/beta_function.tcc:
@@ -761,6 +770,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/c++/14.2.1/stdexcept:
 
+/usr/include/c++/14.2.1/sstream:
+
 /usr/include/c++/14.2.1/pstl/pstl_config.h:
 
 /usr/include/c++/14.2.1/new:
@@ -768,6 +779,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 /usr/include/math.h:
 
 /usr/include/c++/14.2.1/ios:
+
+/usr/include/c++/14.2.1/fstream:
 
 /usr/include/c++/14.2.1/ext/numeric_traits.h:
 
@@ -796,10 +809,6 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 /usr/include/c++/14.2.1/bits/uses_allocator.h:
 
 /usr/include/c++/14.2.1/bits/stringfwd.h:
-
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/stb_image.h:
-
-/usr/include/c++/14.2.1/bits/string_view.tcc:
 
 /usr/lib/libgcc_s.so.1:
 
@@ -849,6 +858,10 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/c++/14.2.1/bits/hash_bytes.h:
 
+/usr/include/c++/14.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/c++/14.2.1/bits/fstream.tcc:
+
 /usr/include/c++/14.2.1/bits/exception_ptr.h:
 
 /usr/include/c++/14.2.1/bits/exception.h:
@@ -859,6 +872,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/c++/14.2.1/bits/concept_check.h:
 
+/usr/include/c++/14.2.1/bits/codecvt.h:
+
 /usr/include/c++/14.2.1/bits/char_traits.h:
 
 /usr/include/c++/14.2.1/bits/basic_string.tcc:
@@ -868,6 +883,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 /usr/include/c++/14.2.1/bits/basic_ios.tcc:
 
 /usr/include/c++/14.2.1/bits/basic_ios.h:
+
+/usr/include/c++/14.2.1/bits/sstream.tcc:
 
 /usr/include/c++/14.2.1/bits/alloc_traits.h:
 
@@ -933,6 +950,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/asm/bitsperlong.h:
 
+/usr/include/asm-generic/posix_types.h:
+
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/_fixes.hpp:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/geometric.hpp:
@@ -953,6 +972,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_double3x4_precision.hpp:
 
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
+
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_mat2x3.inl:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_double3x4.hpp:
@@ -970,6 +991,8 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 /usr/include/c++/14.2.1/ext/string_conversions.h:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_mat4x2.inl:
+
+config.h:
 
 /usr/include/c++/14.2.1/bits/range_access.h:
 
@@ -1075,6 +1098,10 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_float2x4_precision.hpp:
 
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glad/glad.h:
 
 /usr/include/bits/types.h:
@@ -1125,13 +1152,19 @@ CMakeFiles/coordinate_systems.dir/src/glad.c.o:
 
 /usr/include/bits/types/locale_t.h:
 
+/usr/include/asm-generic/int-ll64.h:
+
+/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_float3x3_precision.hpp:
+
 /usr/include/bits/waitflags.h:
 
 /usr/include/stdc-predef.h:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_float2x2_precision.hpp:
 
-/usr/include/asm-generic/posix_types.h:
+/usr/include/c++/14.2.1/bits/string_view.tcc:
+
+/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/stb_image.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -1228,6 +1261,8 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
 /usr/include/c++/14.2.1/type_traits:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/quaternion_common.inl:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_mat4x4.hpp:
 
@@ -1347,8 +1382,6 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
 
 /usr/include/stdio.h:
 
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_vec1.inl:
-
 /usr/include/c++/14.2.1/bits/ostream.tcc:
 
 /usr/include/endian.h:
@@ -1370,6 +1403,10 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/vector_relational.hpp:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_clip_space.inl:
+
+/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/detail/type_vec1.inl:
+
+/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/shader.h:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
@@ -1414,10 +1451,6 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
 /usr/include/bits/floatn-common.h:
 
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/vec2.hpp:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
 
 /usr/include/bits/locale.h:
 
@@ -1596,7 +1629,3 @@ CMakeFiles/coordinate_systems.dir/src/main.cpp.o:
 /home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/vec3.hpp:
 
 /usr/include/asm-generic/errno.h:
-
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/include/glm/ext/matrix_float3x3_precision.hpp:
-
-/usr/include/asm-generic/int-ll64.h:
