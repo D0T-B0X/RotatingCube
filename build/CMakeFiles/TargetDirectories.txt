@@ -1,3 +1,0 @@
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles/RotatingCube.dir
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles/edit_cache.dir
-/home/DotBox/Programming/C/OpenGLExcercises/coordinate_systems/build/CMakeFiles/rebuild_cache.dir
