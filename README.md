@@ -33,4 +33,4 @@ cd build/
 
 And, Voila! You now have the Rotating Cube on your screen!
 
-==!!If you are on a windows system, make sure cmake is installed and edit `CMakeLists.txt` to use windows path syntax!!==
+<mark>!!If you are on a windows system, make sure cmake is installed and edit `CMakeLists.txt` to use windows path syntax!!</mark>
