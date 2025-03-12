@@ -34,3 +34,16 @@ cd build/
 And, Voila! You now have the Rotating Cube on your screen!
 
 <mark><code>!! If you are on a windows system, make sure cmake is installed and edit `CMakeLists.txt` to use windows path syntax !!</code></mark>
+
+## Parameters
+
+You can tweak certain parameters in the program to change how the cube or the camera behaves:
+
+- SCR_WIDTH: Width of the screen
+- SCR_HEIGHT: Height of the screen
+- AVELOCITY: How fast you want the cube to spin
+- ROTATION_ANGLE: Angle at which the cube will rotate
+- SCR_DISTANCE: Distance of the cube from the screen (decreasing this makes the cube appear further)
+- FOV: Field of view
+
+`SCR_WIDTH`, and `SCR_HEIGHT` essentially control the resolution of the render.

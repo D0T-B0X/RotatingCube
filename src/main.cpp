@@ -10,6 +10,10 @@
 
 #define SCR_WIDTH 800
 #define SCR_HEIGHT 600
+#define AVELOCITY 1.0f
+#define ROTATION_ANGLE 80.0f
+#define SCR_DISTANCE -3.0f
+#define FOV 45.0f
 
 float shaderMix = 0.2f;
 
@@ -25,7 +29,7 @@ int main() {
     GLFWwindow *window = glfwCreateWindow(
         SCR_WIDTH,
         SCR_HEIGHT,
-        "Coordinate Systems",
+        "Rotating Cube",
         NULL,
         NULL
     );
@@ -164,9 +168,9 @@ int main() {
         glm::mat4 view = glm::mat4(1.0f);
         glm::mat4 projection = glm::mat4(1.0f);
 
-        model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
-        view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
-        projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+        model = glm::rotate(model, AVELOCITY * (float)glfwGetTime() * glm::radians(ROTATION_ANGLE), glm::vec3(0.5f, 1.0f, 0.0f));
+        view = glm::translate(view, glm::vec3(0.0f, 0.0f, SCR_DISTANCE));
+        projection = glm::perspective(glm::radians(FOV), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
 
         unsigned int modelLoc = glGetUniformLocation(ourShader.ID, "model");
         unsigned int viewLoc = glGetUniformLocation(ourShader.ID, "view");
